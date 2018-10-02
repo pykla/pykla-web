@@ -1,0 +1,9 @@
+# IDEs
+.vscode
+
+# Cache
+__pycache__
+.cache
+
+# Databases
+db.sqlite3
