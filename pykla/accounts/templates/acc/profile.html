@@ -1,0 +1,15 @@
+{% extends 'base.html'%}
+
+{% block body%}
+<div class="container">
+    <p>
+
+    {{user}}
+    {{user.first_name}}
+    {{user.last_name}}
+
+    </p>
+    <a href="{%url 'edit_profile'%}">EDIT</a>
+</div>
+
+{% endblock%}
