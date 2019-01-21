@@ -52,7 +52,7 @@ coverage.xml
 
 # Django stuff:
 staticfiles/
-kazi365/media/*
+pykla-web/media/*
 
 # Sphinx documentation
 docs/_build/
