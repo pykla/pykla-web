@@ -32,6 +32,8 @@ Visit <http://localhost:8000> to view website.
 
 TODO
 
+## Contributing
+
 
 ## License
 
