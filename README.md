@@ -1,29 +1,50 @@
-# Pykla-web
+# pykla-web
 
-The official website for Python Kampala (PyKla)
+The official website for Python Kampla (PyKla)
+
+## Goals
+
+The goal of this repo is to have a community driven/developed website
+for the Python Kampala User Group. This project is open to anyone to 
+contribute and learn Django
 
 ## Technologies
 
-* Python 3.6
-* SQLite3
+* Python 3.7
 
-## Requirements
 
-* Install [Python](https://www.python.org/downloads/)
+## Development
 
-## Setup (Mac OS)
+Quickly get started with Pykla-web by running the following:
 
-* Run `git clone` this repository and `cd` into the project root.
-* Run `pip install virtualenv` on command prompt
-* Run `virtualenv ../pykla-venv --python=python3`
-* Run `source ../pykla-venv/bin/activate`
-* Run `pip install -r requirements.txt`
-* Run `python manage.py migrate`
-* Run `python manage.py runserver`
-* View the app at `http://127.0.0.1:8000/`
+```shell
+# 1. Build database:
+python manage.py migrate
+
+# 2. Start web server:
+python manage.py runserver
+
+```
+
+Visit <http://localhost:8000> to view website.
+
+## Testing 
+
+`python manage.py test`
+
+
+## Deployment
+
+TODO
 
 ## Contributing
 
-* Create a branch off `master`.
-* Make changes and raise a PR to `master`
+* Create a branch off `develop`.
+* Make changes and raise a PR to `develop`
 * Add your name and Github URL to [Contributors.md](./Contributors.md)
+
+
+## License
+
+TODO
+
