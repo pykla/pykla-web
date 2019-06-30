@@ -2,6 +2,8 @@
 
 The official website for Python Kampla (PyKla)
 
+![mockup](assets/pykla.jpg)
+
 ## Goals
 
 The goal of this repo is to have a community driven/developed website
