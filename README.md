@@ -43,7 +43,7 @@ TODO
 
 * Create a branch off `develop`.
 * Make changes and raise a PR to `develop`
-* Add your name and Github URL to [Contributors.md](./Contributors.md)
+* Add your name and Github URL to [Contributors.md](Contributors.md)
 
 
 ## License
